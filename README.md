@@ -1,4 +1,4 @@
 ﻿# login-page
  #screencaps
- ![LOGIN](/screencaps/login.jpg)
- ![REGISTER](/screencaps/register.jpg)
+ ![LOGIN](/screencaps/login_ss.jpg)
+ ![REGISTER](/screencaps/register_ss.jpg)
