@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+html {
+  background: url(/assets/img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.form__bx {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  padding: 5px;
+  overflow: hidden;
+}
+
+.btn__bx {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 1px 1px #3498db;
+  border-radius: 30px;
+}
+.toggle__btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+button {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #628bb3, #718abc);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.social__icons {
+  margin: 10px auto;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(103, 133, 133);
+}
+
+.input__group {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.input__field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  color: #fff;
+  border-bottom: 1px solid #3498db;
+  outline: none;
+  background: transparent;
+}
+
+button {
+  color: #fff;
+}
+.submit__btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #628bb3, #718abc);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.check__bx {
+  margin: 30px 10px 30px 0;
+}
+.textspan {
+  color: #fff;
+}
+span {
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+#login {
+  left: 50px;
+}
+#register {
+  left: 400px;
+}

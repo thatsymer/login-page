@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+
+        <title>Responsive | Log-in Page</title>
+    </head>
+    <body>
+        <div class="hero">
+             <div class="form__bx"> 
+                <div class="btn__bx" >
+                    <div class="" id="btn"></div>
+                    <button type="button" class="toggle__btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle__btn" onclick="register()">Register</button>
+                
+                </div>
+
+                  <div class="social__icons">
+                    <i class="uil uil-facebook"></i>
+                    <i class="uil uil-twitter"></i>
+                    <i class="uil uil-google"></i>
+                 </div>
+
+                 <form class="input__group" id="register">
+                    <input type="text" class="input__field" placeholder="Username" required>
+                    <input type="email" class="input__field" placeholder="Email" required>
+                    <input type="text" class="input__field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check__bx" <span class="textspan">I agree to terms & agreements</span>
+                   <button type="submmit" class="submit__btn" > Register</button>
+                </form>
+
+                 <form class="input__group" id="login">
+                     <input type="text" class="input__field" placeholder="Username" required>
+                     <input type="text" class="input__field" placeholder="Enter Password" required>
+                     <input type="checkbox" class="check__bx" <span class="textspan">Remember Password</span>
+                    <button type="submmit" class="submit__btn" > Log In</button>
+                 </form>
+
+
+            </div>
+        </div>
+
+</div>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
